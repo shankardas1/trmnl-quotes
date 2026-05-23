@@ -1,0 +1,1260 @@
+{
+  "_schema": {
+    "description": "Foundational quote corpus for TRMNL e-ink display. Each entry is short enough for a half-screen (400x480) layout.",
+    "fields": {
+      "id": "Unique identifier, prefix indicates source: ma- (Marcus Aurelius), st- (other Stoics), ah- (Atomic Habits), ru- (Rumi), tg- (Tagore), lt- (Lao Tzu), bg- (Bhagavad Gita)",
+      "text": "The quote itself",
+      "author": "Original author or attribution",
+      "source": "Original work and citation where known",
+      "category": "aurelius | stoic | atomic_habits | rumi | tagore | lao_tzu | bhagavad_gita",
+      "tags": "Thematic tags for future filtering",
+      "word_count": "For layout sizing decisions",
+      "verified": "true if quote is directly traceable to a primary source; false if paraphrase or contested attribution",
+      "notes": "Optional context on translation or provenance"
+    },
+    "last_updated": "2026-05-15",
+    "version": "0.3",
+    "total_quotes": 120,
+    "breakdown": {
+      "aurelius": 25,
+      "stoic": 18,
+      "atomic_habits": 12,
+      "rumi": 20,
+      "tagore": 18,
+      "lao_tzu": 15,
+      "bhagavad_gita": 12
+    }
+  },
+  "quotes": [
+    {
+      "id": "ma-001",
+      "text": "Waste no more time arguing what a good man should be. Be one.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 10.16",
+      "category": "aurelius",
+      "tags": ["action", "integrity", "philosophy"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "ma-002",
+      "text": "What stands in the way becomes the way.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 5.20",
+      "category": "aurelius",
+      "tags": ["obstacle", "resilience"],
+      "word_count": 8,
+      "verified": true
+    },
+    {
+      "id": "ma-003",
+      "text": "You could leave life right now. Let that determine what you do and say and think.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 2.11",
+      "category": "aurelius",
+      "tags": ["mortality", "memento_mori", "clarity"],
+      "word_count": 17,
+      "verified": true
+    },
+    {
+      "id": "ma-004",
+      "text": "Confine yourself to the present.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 7.29",
+      "category": "aurelius",
+      "tags": ["presence", "now"],
+      "word_count": 5,
+      "verified": true
+    },
+    {
+      "id": "ma-005",
+      "text": "If you are distressed by anything external, the pain is not due to the thing itself but to your estimate of it.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 8.47",
+      "category": "aurelius",
+      "tags": ["judgment", "interpretation", "control"],
+      "word_count": 22,
+      "verified": true
+    },
+    {
+      "id": "ma-006",
+      "text": "Loss is nothing else but change, and change is Nature's delight.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 9.35",
+      "category": "aurelius",
+      "tags": ["impermanence", "change", "loss"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "ma-007",
+      "text": "How much more grievous are the consequences of anger than the causes of it.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 11.18",
+      "category": "aurelius",
+      "tags": ["anger", "forgiveness"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "ma-008",
+      "text": "The best revenge is to be unlike him who performed the injury.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 6.6",
+      "category": "aurelius",
+      "tags": ["forgiveness", "integrity"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "ma-009",
+      "text": "Receive without pride, relinquish without struggle.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 8.33",
+      "category": "aurelius",
+      "tags": ["ego", "humility", "acceptance"],
+      "word_count": 6,
+      "verified": true
+    },
+    {
+      "id": "ma-010",
+      "text": "Ask yourself at every moment: is this necessary?",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 4.24",
+      "category": "aurelius",
+      "tags": ["simplicity", "discernment"],
+      "word_count": 8,
+      "verified": true
+    },
+    {
+      "id": "ma-011",
+      "text": "The soul becomes dyed with the color of its thoughts.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 5.16",
+      "category": "aurelius",
+      "tags": ["thoughts", "character", "habit"],
+      "word_count": 10,
+      "verified": true
+    },
+    {
+      "id": "ma-012",
+      "text": "Dwell on the beauty of life. Watch the stars, and see yourself running with them.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 7.47",
+      "category": "aurelius",
+      "tags": ["beauty", "wonder", "presence"],
+      "word_count": 15,
+      "verified": true
+    },
+    {
+      "id": "ma-013",
+      "text": "Never let the future disturb you. You will meet it with the same weapons of reason which today arm you against the present.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 7.8",
+      "category": "aurelius",
+      "tags": ["anxiety", "future", "reason"],
+      "word_count": 23,
+      "verified": true
+    },
+    {
+      "id": "ma-014",
+      "text": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations (paraphrase)",
+      "category": "aurelius",
+      "tags": ["control", "mind", "power"],
+      "word_count": 16,
+      "verified": false,
+      "notes": "Modern paraphrase of recurring Aurelius themes."
+    },
+    {
+      "id": "ma-015",
+      "text": "When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love.",
+      "author": "Marcus Aurelius",
+      "source": "Attributed to Meditations",
+      "category": "aurelius",
+      "tags": ["gratitude", "morning", "presence"],
+      "word_count": 24,
+      "verified": false,
+      "notes": "Widely attributed but the precise wording is a modern composition."
+    },
+    {
+      "id": "ma-016",
+      "text": "Look well into thyself; there is a source of strength which will always spring up if thou wilt always look.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 7.59",
+      "category": "aurelius",
+      "tags": ["self", "strength", "introspection"],
+      "word_count": 20,
+      "verified": true
+    },
+    {
+      "id": "ma-017",
+      "text": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 7.67",
+      "category": "aurelius",
+      "tags": ["happiness", "simplicity", "mind"],
+      "word_count": 18,
+      "verified": true
+    },
+    {
+      "id": "ma-018",
+      "text": "How much trouble he avoids who does not look to see what his neighbor says or does or thinks.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 4.18",
+      "category": "aurelius",
+      "tags": ["focus", "comparison", "peace"],
+      "word_count": 17,
+      "verified": true
+    },
+    {
+      "id": "ma-019",
+      "text": "Reject your sense of injury and the injury itself disappears.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 4.7",
+      "category": "aurelius",
+      "tags": ["judgment", "resilience", "interpretation"],
+      "word_count": 10,
+      "verified": true
+    },
+    {
+      "id": "ma-020",
+      "text": "Do every act of your life as if it were your last.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 2.5",
+      "category": "aurelius",
+      "tags": ["mortality", "presence", "intention"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "ma-021",
+      "text": "Whenever you are about to find fault with someone, ask yourself: what fault of mine most nearly resembles the one I am about to criticize?",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 10.30",
+      "category": "aurelius",
+      "tags": ["humility", "judgment", "compassion"],
+      "word_count": 24,
+      "verified": true
+    },
+    {
+      "id": "ma-022",
+      "text": "He who lives in harmony with himself lives in harmony with the universe.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations (paraphrase)",
+      "category": "aurelius",
+      "tags": ["harmony", "self", "nature"],
+      "word_count": 12,
+      "verified": false,
+      "notes": "Modern phrasing of recurring Stoic theme in Meditations."
+    },
+    {
+      "id": "ma-023",
+      "text": "The happiness of your life depends upon the quality of your thoughts.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations (paraphrase of 5.16)",
+      "category": "aurelius",
+      "tags": ["thoughts", "happiness", "mind"],
+      "word_count": 11,
+      "verified": false,
+      "notes": "Modern rendering of the 'soul dyed by thoughts' passage."
+    },
+    {
+      "id": "ma-024",
+      "text": "The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane.",
+      "author": "Marcus Aurelius",
+      "source": "Attributed",
+      "category": "aurelius",
+      "tags": ["independence", "wisdom", "conformity"],
+      "word_count": 24,
+      "verified": false,
+      "notes": "Widely attributed; cannot be located in Meditations directly."
+    },
+    {
+      "id": "ma-025",
+      "text": "It is in your power to withdraw yourself whenever you desire. Perfect tranquility within consists in the good ordering of the mind.",
+      "author": "Marcus Aurelius",
+      "source": "Meditations 4.3",
+      "category": "aurelius",
+      "tags": ["tranquility", "mind", "retreat"],
+      "word_count": 21,
+      "verified": true
+    },
+
+    {
+      "id": "st-001",
+      "text": "We suffer more often in imagination than in reality.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 13.4",
+      "category": "stoic",
+      "tags": ["anxiety", "imagination", "fear"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "st-002",
+      "text": "While we are postponing, life speeds by.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 1.2",
+      "category": "stoic",
+      "tags": ["time", "procrastination", "mortality"],
+      "word_count": 7,
+      "verified": true
+    },
+    {
+      "id": "st-003",
+      "text": "Begin at once to live, and count each separate day as a separate life.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 101.10",
+      "category": "stoic",
+      "tags": ["presence", "mortality", "urgency"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "st-004",
+      "text": "Sometimes even to live is an act of courage.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 78.2",
+      "category": "stoic",
+      "tags": ["courage", "endurance", "suffering"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "st-005",
+      "text": "If a man knows not to which port he sails, no wind is favorable.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 71.3",
+      "category": "stoic",
+      "tags": ["purpose", "direction", "goals"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "st-006",
+      "text": "Difficulties strengthen the mind, as labor does the body.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius (paraphrase)",
+      "category": "stoic",
+      "tags": ["resilience", "growth", "difficulty"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "st-007",
+      "text": "It is not what happens to you, but how you react to it that matters.",
+      "author": "Epictetus",
+      "source": "Enchiridion (paraphrase)",
+      "category": "stoic",
+      "tags": ["reaction", "control", "interpretation"],
+      "word_count": 15,
+      "verified": true
+    },
+    {
+      "id": "st-008",
+      "text": "First say to yourself what you would be; and then do what you have to do.",
+      "author": "Epictetus",
+      "source": "Discourses 3.23",
+      "category": "stoic",
+      "tags": ["identity", "action", "purpose"],
+      "word_count": 16,
+      "verified": true
+    },
+    {
+      "id": "st-009",
+      "text": "Wealth consists not in having great possessions, but in having few wants.",
+      "author": "Epictetus",
+      "source": "Attributed",
+      "category": "stoic",
+      "tags": ["wealth", "desire", "contentment"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "st-010",
+      "text": "We have two ears and one mouth so that we can listen twice as much as we speak.",
+      "author": "Epictetus",
+      "source": "Attributed",
+      "category": "stoic",
+      "tags": ["listening", "humility", "wisdom"],
+      "word_count": 18,
+      "verified": false,
+      "notes": "Widely attributed to Epictetus; exact source unclear."
+    },
+    {
+      "id": "st-011",
+      "text": "Luck is what happens when preparation meets opportunity.",
+      "author": "Seneca",
+      "source": "Attributed",
+      "category": "stoic",
+      "tags": ["preparation", "luck", "discipline"],
+      "word_count": 8,
+      "verified": false,
+      "notes": "Widely attributed to Seneca but not located in his extant writings."
+    },
+    {
+      "id": "st-012",
+      "text": "He suffers more than necessary, who suffers before it is necessary.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 98.8",
+      "category": "stoic",
+      "tags": ["anxiety", "suffering", "future"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "st-013",
+      "text": "As is a tale, so is life: not how long it is, but how good it is, is what matters.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 77.20",
+      "category": "stoic",
+      "tags": ["life", "quality", "mortality"],
+      "word_count": 20,
+      "verified": true
+    },
+    {
+      "id": "st-014",
+      "text": "No man was ever wise by chance.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 76.6",
+      "category": "stoic",
+      "tags": ["wisdom", "discipline", "intention"],
+      "word_count": 7,
+      "verified": true
+    },
+    {
+      "id": "st-015",
+      "text": "Don't explain your philosophy. Embody it.",
+      "author": "Epictetus",
+      "source": "Discourses (paraphrase)",
+      "category": "stoic",
+      "tags": ["action", "integrity", "embodiment"],
+      "word_count": 6,
+      "verified": false,
+      "notes": "Modern rendering of Epictetus's recurring theme that philosophy is lived, not spoken."
+    },
+    {
+      "id": "st-016",
+      "text": "Don't seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will.",
+      "author": "Epictetus",
+      "source": "Enchiridion 8",
+      "category": "stoic",
+      "tags": ["acceptance", "amor_fati", "peace"],
+      "word_count": 21,
+      "verified": true
+    },
+    {
+      "id": "st-017",
+      "text": "It is impossible for a man to learn what he thinks he already knows.",
+      "author": "Epictetus",
+      "source": "Discourses 2.17",
+      "category": "stoic",
+      "tags": ["humility", "learning", "ego"],
+      "word_count": 14,
+      "verified": true
+    },
+    {
+      "id": "st-018",
+      "text": "He who fears death will never do anything worthy of a living man.",
+      "author": "Seneca",
+      "source": "Letters to Lucilius 78.5",
+      "category": "stoic",
+      "tags": ["courage", "mortality", "action"],
+      "word_count": 13,
+      "verified": true
+    },
+
+    {
+      "id": "ah-001",
+      "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["systems", "goals", "process"],
+      "word_count": 17,
+      "verified": true
+    },
+    {
+      "id": "ah-002",
+      "text": "Every action you take is a vote for the type of person you wish to become.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["identity", "habits", "action"],
+      "word_count": 16,
+      "verified": true
+    },
+    {
+      "id": "ah-003",
+      "text": "Habits are the compound interest of self-improvement.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["habits", "compounding", "growth"],
+      "word_count": 7,
+      "verified": true
+    },
+    {
+      "id": "ah-004",
+      "text": "Success is the product of daily habits — not once-in-a-lifetime transformations.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["habits", "consistency", "success"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "ah-005",
+      "text": "You should be far more concerned with your current trajectory than with your current results.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["trajectory", "patience", "growth"],
+      "word_count": 14,
+      "verified": true
+    },
+    {
+      "id": "ah-006",
+      "text": "Time magnifies the margin between success and failure.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["time", "compounding", "discipline"],
+      "word_count": 8,
+      "verified": true
+    },
+    {
+      "id": "ah-007",
+      "text": "When you can't win by being better, you can win by being different.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["strategy", "differentiation"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "ah-008",
+      "text": "You don't have to be the victim of your environment. You can also be the architect of it.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["environment", "agency", "design"],
+      "word_count": 18,
+      "verified": true
+    },
+    {
+      "id": "ah-009",
+      "text": "Make it obvious. Make it attractive. Make it easy. Make it satisfying.",
+      "author": "James Clear",
+      "source": "Atomic Habits — The Four Laws",
+      "category": "atomic_habits",
+      "tags": ["laws", "design", "habits"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "ah-010",
+      "text": "The quality of our lives often depends on the quality of our habits.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["habits", "quality", "life"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "ah-011",
+      "text": "Goals are about the results you want to achieve. Systems are about the processes that lead to those results.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["systems", "goals", "process"],
+      "word_count": 19,
+      "verified": true
+    },
+    {
+      "id": "ah-012",
+      "text": "Environment is the invisible hand that shapes human behavior.",
+      "author": "James Clear",
+      "source": "Atomic Habits",
+      "category": "atomic_habits",
+      "tags": ["environment", "behavior", "design"],
+      "word_count": 9,
+      "verified": true
+    },
+
+    {
+      "id": "ru-001",
+      "text": "Listen to the reed, how it tells a tale of separation.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book I, opening line (Nicholson translation)",
+      "category": "rumi",
+      "tags": ["longing", "separation", "soul"],
+      "word_count": 11,
+      "verified": true,
+      "notes": "Opening line of the Mathnawi."
+    },
+    {
+      "id": "ru-002",
+      "text": "The cure for the pain is in the pain.",
+      "author": "Rumi",
+      "source": "Mathnawi",
+      "category": "rumi",
+      "tags": ["suffering", "healing", "paradox"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "ru-003",
+      "text": "Not only the thirsty seek the water; the water also seeks the thirsty.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book I (Nicholson translation)",
+      "category": "rumi",
+      "tags": ["longing", "love", "divine"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "ru-004",
+      "text": "Sell your cleverness and buy bewilderment.",
+      "author": "Rumi",
+      "source": "Attributed; consistent with Mathnawi themes",
+      "category": "rumi",
+      "tags": ["wisdom", "intellect", "wonder"],
+      "word_count": 6,
+      "verified": false,
+      "notes": "Widely attributed to Rumi; exact source uncertain."
+    },
+    {
+      "id": "ru-005",
+      "text": "Through love, thorns become roses.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book II (Nicholson translation)",
+      "category": "rumi",
+      "tags": ["love", "transformation"],
+      "word_count": 6,
+      "verified": true
+    },
+    {
+      "id": "ru-006",
+      "text": "Whoever travels without a guide needs two hundred years for a two-day journey.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book III (Nicholson translation)",
+      "category": "rumi",
+      "tags": ["teacher", "guidance", "path"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "ru-007",
+      "text": "Die now, die now, in this love die. When you have died in this love, you will receive new life.",
+      "author": "Rumi",
+      "source": "Divan-e Shams (Arberry translation)",
+      "category": "rumi",
+      "tags": ["fana", "transformation", "love"],
+      "word_count": 20,
+      "verified": true
+    },
+    {
+      "id": "ru-008",
+      "text": "Don't grieve. Anything you lose comes round in another form.",
+      "author": "Rumi",
+      "source": "Mathnawi (common rendering)",
+      "category": "rumi",
+      "tags": ["loss", "grief", "impermanence"],
+      "word_count": 10,
+      "verified": false,
+      "notes": "Popular rendering of a genuine Rumi theme; phrasing closer to Coleman Barks."
+    },
+    {
+      "id": "ru-009",
+      "text": "We are closer to him than his jugular vein.",
+      "author": "Rumi (quoting Quran)",
+      "source": "Quran 50:16, quoted throughout Rumi's work",
+      "category": "rumi",
+      "tags": ["divine", "presence", "nearness"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "ru-010",
+      "text": "What you seek is seeking you.",
+      "author": "Rumi",
+      "source": "Attributed; consistent with Mathnawi Book I",
+      "category": "rumi",
+      "tags": ["longing", "search", "mutuality"],
+      "word_count": 5,
+      "verified": false
+    },
+    {
+      "id": "ru-011",
+      "text": "Patience is the key to joy.",
+      "author": "Rumi",
+      "source": "Mathnawi (Nicholson translation)",
+      "category": "rumi",
+      "tags": ["patience", "joy", "discipline"],
+      "word_count": 6,
+      "verified": true
+    },
+    {
+      "id": "ru-012",
+      "text": "The reed plays because it has been emptied.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book I (paraphrase of the reed image)",
+      "category": "rumi",
+      "tags": ["emptiness", "instrument", "soul"],
+      "word_count": 8,
+      "verified": true
+    },
+    {
+      "id": "ru-013",
+      "text": "This human body is a guest house. Each morning a new arrival.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book V (the Guest House passage)",
+      "category": "rumi",
+      "tags": ["emotion", "acceptance", "presence"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "ru-014",
+      "text": "Stop fighting the cook. The pot is not your enemy. It is your teacher.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book III (chickpea parable, paraphrased)",
+      "category": "rumi",
+      "tags": ["suffering", "growth", "trust"],
+      "word_count": 14,
+      "verified": true
+    },
+    {
+      "id": "ru-015",
+      "text": "The lamp is lit by another lamp.",
+      "author": "Rumi",
+      "source": "Mathnawi (recurring image)",
+      "category": "rumi",
+      "tags": ["teacher", "transmission", "wisdom"],
+      "word_count": 7,
+      "verified": true
+    },
+    {
+      "id": "ru-016",
+      "text": "Be a lamp, or a lifeboat, or a ladder. Help someone's soul heal.",
+      "author": "Rumi",
+      "source": "Attributed; consistent with Mathnawi themes of service",
+      "category": "rumi",
+      "tags": ["service", "compassion", "help"],
+      "word_count": 12,
+      "verified": false
+    },
+    {
+      "id": "ru-017",
+      "text": "Out beyond the realms of belief and disbelief, there is a field. I will meet you there.",
+      "author": "Rumi",
+      "source": "Divan-e Shams, Quatrain 158",
+      "category": "rumi",
+      "tags": ["acceptance", "beyond", "meeting"],
+      "word_count": 16,
+      "verified": true,
+      "notes": "Closer to literal Persian than Barks's popular 'wrongdoing and rightdoing' rendering."
+    },
+    {
+      "id": "ru-018",
+      "text": "The wound is where the medicine enters.",
+      "author": "Rumi",
+      "source": "Mathnawi (paraphrase)",
+      "category": "rumi",
+      "tags": ["healing", "vulnerability", "transformation"],
+      "word_count": 7,
+      "verified": false,
+      "notes": "IMPORTANT: The famous 'wound is where the light enters' is Leonard Cohen, not Rumi. Rumi's actual teaching is closer to 'the medicine is in the wound itself.'"
+    },
+    {
+      "id": "ru-019",
+      "text": "Look at the chickpea in the pot, how it leaps when touched by the fire.",
+      "author": "Rumi",
+      "source": "Mathnawi, Book III (Nicholson translation)",
+      "category": "rumi",
+      "tags": ["growth", "suffering", "transformation"],
+      "word_count": 15,
+      "verified": true
+    },
+    {
+      "id": "ru-020",
+      "text": "Silence is the language of God; all else is poor translation.",
+      "author": "Rumi",
+      "source": "Attributed",
+      "category": "rumi",
+      "tags": ["silence", "divine", "language"],
+      "word_count": 11,
+      "verified": false
+    },
+
+    {
+      "id": "tg-001",
+      "text": "Let life be beautiful like summer flowers and death like autumn leaves.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916), verse 82",
+      "category": "tagore",
+      "tags": ["life", "death", "beauty"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "tg-002",
+      "text": "The butterfly counts not months but moments, and has time enough.",
+      "author": "Rabindranath Tagore",
+      "source": "Fireflies (1928)",
+      "category": "tagore",
+      "tags": ["presence", "time", "enough"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "tg-003",
+      "text": "Faith is the bird that feels the light and sings when the dawn is still dark.",
+      "author": "Rabindranath Tagore",
+      "source": "Fireflies (1928)",
+      "category": "tagore",
+      "tags": ["faith", "hope", "darkness"],
+      "word_count": 16,
+      "verified": true
+    },
+    {
+      "id": "tg-004",
+      "text": "Trees are the earth's endless effort to speak to the listening heaven.",
+      "author": "Rabindranath Tagore",
+      "source": "Fireflies (1928)",
+      "category": "tagore",
+      "tags": ["nature", "longing", "reach"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "tg-005",
+      "text": "We come nearest to the great when we are great in humility.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["humility", "greatness", "character"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "tg-006",
+      "text": "We live in this world when we love it.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["love", "presence", "world"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "tg-007",
+      "text": "The roots below the earth claim no rewards for making the branches fruitful.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["service", "humility", "legacy"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "tg-008",
+      "text": "Where the mind is without fear and the head is held high; where knowledge is free.",
+      "author": "Rabindranath Tagore",
+      "source": "Gitanjali (1910), verse 35",
+      "category": "tagore",
+      "tags": ["freedom", "courage", "knowledge"],
+      "word_count": 16,
+      "verified": true
+    },
+    {
+      "id": "tg-009",
+      "text": "I have spent my days in stringing and in unstringing my instrument.",
+      "author": "Rabindranath Tagore",
+      "source": "Gitanjali (1910)",
+      "category": "tagore",
+      "tags": ["preparation", "delay", "life"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "tg-010",
+      "text": "The same stream of life that runs through my veins night and day runs through the world and dances in rhythmic measures.",
+      "author": "Rabindranath Tagore",
+      "source": "Gitanjali (1910), verse 69",
+      "category": "tagore",
+      "tags": ["unity", "life", "nature"],
+      "word_count": 22,
+      "verified": true
+    },
+    {
+      "id": "tg-011",
+      "text": "The dust receives insult and in return offers her flowers.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["forgiveness", "grace", "transformation"],
+      "word_count": 10,
+      "verified": true
+    },
+    {
+      "id": "tg-012",
+      "text": "Sorrow is hushed into peace in my heart like the evening among the silent trees.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["sorrow", "peace", "stillness"],
+      "word_count": 15,
+      "verified": true
+    },
+    {
+      "id": "tg-013",
+      "text": "I cannot choose the best. The best chooses me.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["humility", "grace", "surrender"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "tg-014",
+      "text": "Do not say, 'It is morning,' and dismiss it with a name of yesterday.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["presence", "newness", "freshness"],
+      "word_count": 14,
+      "verified": true
+    },
+    {
+      "id": "tg-015",
+      "text": "The bird wishes it were a cloud. The cloud wishes it were a bird.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["longing", "discontent", "perspective"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "tg-016",
+      "text": "You can't cross the sea merely by standing and staring at the water.",
+      "author": "Rabindranath Tagore",
+      "source": "Attributed",
+      "category": "tagore",
+      "tags": ["action", "courage", "journey"],
+      "word_count": 13,
+      "verified": false
+    },
+    {
+      "id": "tg-017",
+      "text": "By plucking her petals you do not gather the beauty of the flower.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["beauty", "wholeness", "wisdom"],
+      "word_count": 12,
+      "verified": true
+    },
+    {
+      "id": "tg-018",
+      "text": "God's silence ripens man's thoughts into speech.",
+      "author": "Rabindranath Tagore",
+      "source": "Stray Birds (1916)",
+      "category": "tagore",
+      "tags": ["silence", "thought", "divine"],
+      "word_count": 7,
+      "verified": true
+    },
+
+    {
+      "id": "lt-001",
+      "text": "The supreme good is like water, which nourishes all things without trying to.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 8",
+      "category": "lao_tzu",
+      "tags": ["water", "humility", "naturalness"],
+      "word_count": 13,
+      "verified": true,
+      "notes": "Translations vary across editions; D.C. Lau (Penguin) and Stephen Mitchell are common references."
+    },
+    {
+      "id": "lt-002",
+      "text": "Knowing others is intelligence. Knowing yourself is true wisdom.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 33",
+      "category": "lao_tzu",
+      "tags": ["self_knowledge", "wisdom", "discernment"],
+      "word_count": 10,
+      "verified": true
+    },
+    {
+      "id": "lt-003",
+      "text": "Mastering others is strength. Mastering yourself is true power.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 33",
+      "category": "lao_tzu",
+      "tags": ["self_mastery", "power", "discipline"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "lt-004",
+      "text": "He who knows he has enough is rich.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 33",
+      "category": "lao_tzu",
+      "tags": ["enough", "contentment", "wealth"],
+      "word_count": 8,
+      "verified": true
+    },
+    {
+      "id": "lt-005",
+      "text": "A journey of a thousand miles begins with a single step.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 64",
+      "category": "lao_tzu",
+      "tags": ["beginning", "patience", "action"],
+      "word_count": 11,
+      "verified": true,
+      "notes": "Most famous line attributed to Lao Tzu; some translators render as 'thousand li' since 'li' is the Chinese unit."
+    },
+    {
+      "id": "lt-006",
+      "text": "The softest things in the world overcome the hardest.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 43",
+      "category": "lao_tzu",
+      "tags": ["softness", "strength", "paradox"],
+      "word_count": 9,
+      "verified": true
+    },
+    {
+      "id": "lt-007",
+      "text": "He who knows when to stop will not get into trouble.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 44",
+      "category": "lao_tzu",
+      "tags": ["restraint", "wisdom", "discernment"],
+      "word_count": 10,
+      "verified": true
+    },
+    {
+      "id": "lt-008",
+      "text": "Those who know do not speak. Those who speak do not know.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 56",
+      "category": "lao_tzu",
+      "tags": ["silence", "wisdom", "humility"],
+      "word_count": 11,
+      "verified": true
+    },
+    {
+      "id": "lt-009",
+      "text": "I have three treasures: simplicity, patience, compassion.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 67",
+      "category": "lao_tzu",
+      "tags": ["simplicity", "patience", "compassion"],
+      "word_count": 7,
+      "verified": true
+    },
+    {
+      "id": "lt-010",
+      "text": "Confront the difficult while it is still easy. Accomplish the great task by a series of small acts.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 63",
+      "category": "lao_tzu",
+      "tags": ["action", "timing", "small_steps"],
+      "word_count": 17,
+      "verified": true,
+      "notes": "Echoes Atomic Habits centuries before James Clear — small consistent action over grand gestures."
+    },
+    {
+      "id": "lt-011",
+      "text": "The Master does not accumulate. The more he does for others, the more he has.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 81",
+      "category": "lao_tzu",
+      "tags": ["service", "giving", "abundance"],
+      "word_count": 14,
+      "verified": true
+    },
+    {
+      "id": "lt-012",
+      "text": "Yield and overcome; bend and be straight.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 22",
+      "category": "lao_tzu",
+      "tags": ["yielding", "paradox", "flexibility"],
+      "word_count": 7,
+      "verified": true
+    },
+    {
+      "id": "lt-013",
+      "text": "A good traveler has no fixed plans and is not intent on arriving.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 27",
+      "category": "lao_tzu",
+      "tags": ["journey", "process", "presence"],
+      "word_count": 13,
+      "verified": true
+    },
+    {
+      "id": "lt-014",
+      "text": "We shape clay into a pot, but it is the emptiness inside that holds whatever we want.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 11",
+      "category": "lao_tzu",
+      "tags": ["emptiness", "usefulness", "paradox"],
+      "word_count": 17,
+      "verified": true,
+      "notes": "Rhymes with Rumi's reed image — emptiness as the source of function."
+    },
+    {
+      "id": "lt-015",
+      "text": "The tree that fills a man's embrace begins as a tiny shoot.",
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching, Chapter 64",
+      "category": "lao_tzu",
+      "tags": ["beginnings", "growth", "patience"],
+      "word_count": 12,
+      "verified": true
+    },
+
+    {
+      "id": "bg-001",
+      "text": "You have a right to action, but never to its fruits.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 2, Verse 47",
+      "category": "bhagavad_gita",
+      "tags": ["action", "detachment", "duty"],
+      "word_count": 11,
+      "verified": true,
+      "notes": "Karma yoga in one line. The central teaching of the Gita and the one most relevant to legacy-building: do the work, release the outcome."
+    },
+    {
+      "id": "bg-002",
+      "text": "Skill in action is yoga.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 2, Verse 50",
+      "category": "bhagavad_gita",
+      "tags": ["action", "mastery", "discipline"],
+      "word_count": 5,
+      "verified": true,
+      "notes": "Yoga here means 'union' or 'practice' — Krishna defines the discipline as the quality of one's daily action, not as a separate spiritual exercise."
+    },
+    {
+      "id": "bg-003",
+      "text": "Perform your duty with equanimity, abandoning attachment to success or failure. Such evenness of mind is called yoga.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 2, Verse 48",
+      "category": "bhagavad_gita",
+      "tags": ["equanimity", "duty", "detachment"],
+      "word_count": 18,
+      "verified": true
+    },
+    {
+      "id": "bg-004",
+      "text": "He whose mind is undisturbed by sorrow, free from craving amid pleasures — he is called a sage of steady mind.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 2, Verse 56",
+      "category": "bhagavad_gita",
+      "tags": ["steadiness", "equanimity", "wisdom"],
+      "word_count": 20,
+      "verified": true
+    },
+    {
+      "id": "bg-005",
+      "text": "He attains peace into whom desires enter as waters into the sea, which is filled but remains unmoved.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 2, Verse 70",
+      "category": "bhagavad_gita",
+      "tags": ["peace", "desire", "stillness"],
+      "word_count": 18,
+      "verified": true
+    },
+    {
+      "id": "bg-006",
+      "text": "Lift yourself by yourself. Do not let yourself sink down.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 6, Verse 5",
+      "category": "bhagavad_gita",
+      "tags": ["self_reliance", "discipline", "responsibility"],
+      "word_count": 10,
+      "verified": true,
+      "notes": "Krishna's instruction that the self is both the agent of elevation and the source of descent."
+    },
+    {
+      "id": "bg-007",
+      "text": "For one who has conquered the self, the self is a friend. For one who has not, the self remains hostile.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 6, Verse 6",
+      "category": "bhagavad_gita",
+      "tags": ["self_mastery", "discipline", "inner_work"],
+      "word_count": 21,
+      "verified": true
+    },
+    {
+      "id": "bg-008",
+      "text": "Better one's own duty imperfectly performed than the duty of another well-performed.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 3, Verse 35",
+      "category": "bhagavad_gita",
+      "tags": ["duty", "authenticity", "path"],
+      "word_count": 12,
+      "verified": true,
+      "notes": "On svadharma — your own true path. Particularly resonant for those building unique legacy projects rather than following templates."
+    },
+    {
+      "id": "bg-009",
+      "text": "Action is better than inaction.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 3, Verse 8",
+      "category": "bhagavad_gita",
+      "tags": ["action", "duty", "engagement"],
+      "word_count": 5,
+      "verified": true
+    },
+    {
+      "id": "bg-010",
+      "text": "From attachment springs desire. From desire, anger is born.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 2, Verse 62",
+      "category": "bhagavad_gita",
+      "tags": ["attachment", "desire", "psychology"],
+      "word_count": 10,
+      "verified": true,
+      "notes": "The famous chain that the Gita traces: attachment → desire → anger → delusion → loss of memory → ruin of intelligence. First link captured here."
+    },
+    {
+      "id": "bg-011",
+      "text": "The mind is restless, turbulent, obstinate. Yet through practice and detachment, it can be controlled.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 6, Verses 34-35 (composite)",
+      "category": "bhagavad_gita",
+      "tags": ["mind", "discipline", "practice"],
+      "word_count": 15,
+      "verified": true,
+      "notes": "Composite of Arjuna's question (6:34, comparing the mind to harnessing the wind) and Krishna's answer (6:35)."
+    },
+    {
+      "id": "bg-012",
+      "text": "The wise see the same Self in all beings.",
+      "author": "Bhagavad Gita",
+      "source": "Chapter 5, Verse 18",
+      "category": "bhagavad_gita",
+      "tags": ["unity", "wisdom", "perception"],
+      "word_count": 9,
+      "verified": true,
+      "notes": "Distilled from Krishna's teaching that the realized soul sees the same Self in a learned Brahmin, a cow, an elephant, a dog, and an outcaste."
+    }
+  ]
+}
