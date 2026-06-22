@@ -14,11 +14,10 @@
     },
     "last_updated": "2026-05-15",
     "version": "0.3",
-    "total_quotes": 120,
+    "total_quotes": 108,
     "breakdown": {
       "aurelius": 25,
       "stoic": 18,
-      "atomic_habits": 12,
       "rumi": 20,
       "tagore": 18,
       "lao_tzu": 15,
@@ -465,128 +464,6 @@
       "word_count": 13,
       "verified": true
     },
-
-    {
-      "id": "ah-001",
-      "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["systems", "goals", "process"],
-      "word_count": 17,
-      "verified": true
-    },
-    {
-      "id": "ah-002",
-      "text": "Every action you take is a vote for the type of person you wish to become.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["identity", "habits", "action"],
-      "word_count": 16,
-      "verified": true
-    },
-    {
-      "id": "ah-003",
-      "text": "Habits are the compound interest of self-improvement.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["habits", "compounding", "growth"],
-      "word_count": 7,
-      "verified": true
-    },
-    {
-      "id": "ah-004",
-      "text": "Success is the product of daily habits — not once-in-a-lifetime transformations.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["habits", "consistency", "success"],
-      "word_count": 11,
-      "verified": true
-    },
-    {
-      "id": "ah-005",
-      "text": "You should be far more concerned with your current trajectory than with your current results.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["trajectory", "patience", "growth"],
-      "word_count": 14,
-      "verified": true
-    },
-    {
-      "id": "ah-006",
-      "text": "Time magnifies the margin between success and failure.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["time", "compounding", "discipline"],
-      "word_count": 8,
-      "verified": true
-    },
-    {
-      "id": "ah-007",
-      "text": "When you can't win by being better, you can win by being different.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["strategy", "differentiation"],
-      "word_count": 13,
-      "verified": true
-    },
-    {
-      "id": "ah-008",
-      "text": "You don't have to be the victim of your environment. You can also be the architect of it.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["environment", "agency", "design"],
-      "word_count": 18,
-      "verified": true
-    },
-    {
-      "id": "ah-009",
-      "text": "Make it obvious. Make it attractive. Make it easy. Make it satisfying.",
-      "author": "James Clear",
-      "source": "Atomic Habits — The Four Laws",
-      "category": "atomic_habits",
-      "tags": ["laws", "design", "habits"],
-      "word_count": 12,
-      "verified": true
-    },
-    {
-      "id": "ah-010",
-      "text": "The quality of our lives often depends on the quality of our habits.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["habits", "quality", "life"],
-      "word_count": 13,
-      "verified": true
-    },
-    {
-      "id": "ah-011",
-      "text": "Goals are about the results you want to achieve. Systems are about the processes that lead to those results.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["systems", "goals", "process"],
-      "word_count": 19,
-      "verified": true
-    },
-    {
-      "id": "ah-012",
-      "text": "Environment is the invisible hand that shapes human behavior.",
-      "author": "James Clear",
-      "source": "Atomic Habits",
-      "category": "atomic_habits",
-      "tags": ["environment", "behavior", "design"],
-      "word_count": 9,
-      "verified": true
-    },
-
     {
       "id": "ru-001",
       "text": "Listen to the reed, how it tells a tale of separation.",
